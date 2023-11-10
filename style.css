@@ -1,0 +1,28 @@
+#heading{
+    text-align: center;
+}
+
+#Form_{
+    text-align: center;
+    padding: 40px;
+    border: 1px solid black;
+}
+
+.inp1{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-left: 150px;
+}
+
+.inp2{
+    width: 100px;
+    height: 25px;
+}
+body{
+    background-color: rgb(118, 224, 188);
+}
+#predictions{
+    padding: 40px;
+}

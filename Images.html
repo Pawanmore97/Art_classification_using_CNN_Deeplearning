@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Classification</title>
+    <link rel="stylesheet" href="static\css\style.css">
+</head>
+<body>
+
+    <div id="heading">
+    <h2>AI-Generated ART or Non-AI Generated ART Classification</h2>
+    </div>
+
+    <form action="/predict" method="post" enctype="multipart/form-data" id="Form_">
+        <div id="Label">
+        <label for=""><b>Upload Image</b></label>
+        </div>  
+
+        <div>
+        <input type="file" name = "file" id="imageInput" class="inp1">
+        </div>
+        <div>
+        <input type="submit" value="predict" class="inp2">
+        </div>
+
+        <!-- <img id ="display image" src="" alt="Selected Image"> -->
+
+        <div id="predictions">
+            <b>{{preds}}</b>
+        </div>
+        
+
+    </form>
+    
+</body>
+</html>
